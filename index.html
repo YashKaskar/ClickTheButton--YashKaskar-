@@ -15,5 +15,14 @@
   </body>
   <script>
     // write code here
+function increase() { 
+  let element = document.getElementById('counter');
+  let value = element.innerHTML;
+
+  ++value;
+
+  console.log(value);
+  document.getElementById('counter').innerHTML = value;
+}
   </script>
 </html>
